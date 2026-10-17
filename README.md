@@ -8,3 +8,11 @@ The SVG contains one rectangle per output pixel. This is intentionally simple an
 
 Established methods, not claimed research novelty: OKLab conversion https://bottosson.github.io/posts/oklab/ ; Lloyd clustering; farthest-point initialization; Floyd–Steinberg error diffusion. AI disclosure: Codex generated implementation and materials. The entrant should review and understand the project before its mandatory live presentation.
 
+## Source code and how to run it
+
+- **Algorithm implementation:** [core.js](./core.js) contains colour conversion, palette clustering, nearest-colour rendering and error diffusion.
+- **Interface and browser workflow:** [index.html](./index.html) loads `core.js` and implements image input, controls, canvas rendering and SVG export.
+- **Runnable checks:** [test.cjs](./test.cjs).
+- **Run locally:** choose **Code → Download ZIP**, extract the ZIP, and keep `index.html` and `core.js` in the same folder. Open `index.html` in a browser. No install, server, API key or build step is needed.
+- **Verify the algorithms:** with Node.js installed, run `node test.cjs` from that folder.
+- GitHub's file view displays source text; it does not run the application.
