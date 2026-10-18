@@ -16,3 +16,7 @@ Established methods, not claimed research novelty: OKLab conversion https://bott
 - **Run locally:** choose **Code → Download ZIP**, extract the ZIP, and keep `index.html` and `core.js` in the same folder. Open `index.html` in a browser. No install, server, API key or build step is needed.
 - **Verify the algorithms:** with Node.js installed, run `node test.cjs` from that folder.
 - GitHub's file view displays source text; it does not run the application.
+
+## Live browser demo
+
+Open https://vivaankandhari.github.io/paletteweave/ to run the actual app. Published and browser interactions checked on 18 October 2026. The repository retains the complete source and local run instructions.
