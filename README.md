@@ -6,7 +6,7 @@ Learn 3/6/8/12-colour palettes using Lloyd clustering in RGB or OKLab; compare n
 
 The SVG contains one rectangle per output pixel. This is intentionally simple and can create large SVGs. There is no alpha preservation, print colour management, professional gamut mapping or artistic-quality metric. Dithering changes texture and may increase pixelwise error. Centroids use nearest sampled source colours as in-gamut representatives. Rendering always matches in OKLab.
 
-Established methods, not claimed research novelty: OKLab conversion https://bottosson.github.io/posts/oklab/ ; Lloyd clustering; farthest-point initialization; Floyd–Steinberg error diffusion. AI disclosure: Codex generated implementation and materials. The entrant should review and understand the project before its mandatory live presentation.
+Established methods, not claimed research novelty: OKLab conversion https://bottosson.github.io/posts/oklab/ ; Lloyd clustering; farthest-point initialization; Floyd–Steinberg error diffusion. AI disclosure: AI tools generated implementation and materials. The entrant should review and understand the project before its mandatory live presentation.
 
 ## Source code and how to run it
 
